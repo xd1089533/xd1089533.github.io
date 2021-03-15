@@ -5,7 +5,7 @@ function getRandom(max, min) {
 }
 jQuery(document).ready(function ($) {
     $("body").click(function (e) {
-        var a = new Array("Blog","SEO","Hack","Java", "Spring", "Shiro", "Redis", "Nginx", "Mybatis", "jQuery", "vuepress", "JS", "Spring Cloud", "Soaring");
+        var a = new Array("美女","少妇","XXOO","clum","duck", "bobo","girls");
         var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,

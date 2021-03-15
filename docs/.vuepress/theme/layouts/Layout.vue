@@ -15,26 +15,7 @@
       @click="toggleSidebar(false)"
     ></div>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-      v-show="showSidebar"
-    >
-      <template
-        #top
-        v-if="sidebarSlotTop"
-      >
-        <div class="sidebar-slot sidebar-slot-top" v-html="sidebarSlotTop"></div>
-      </template>
-      <template
-        #bottom
-        v-if="sidebarSlotBottom"
-      >
-        <div class="sidebar-slot sidebar-slot-bottom" v-html="sidebarSlotBottom"></div>
-      </template>
-      <!-- <slot name="sidebar-top" #top />
-      <slot name="sidebar-bottom" #bottom /> -->
-    </Sidebar>
+    
 
     <!-- 首页 -->
     <Home v-if="$page.frontmatter.home" />

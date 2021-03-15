@@ -7,7 +7,7 @@ module.exports = {
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
   title: "福利资源下载站点",
-  description: '老斯加,福利资源',
+  description: '老斯机,福利资源',
   base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
