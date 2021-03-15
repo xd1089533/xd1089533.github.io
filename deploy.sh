@@ -12,20 +12,20 @@ git push
 
 
 # 生成静态文件
-# yarn build
+yarn build
 
 # 进入生成的文件夹
-# cd docs/.vuepress/dist
+cd docs/.vuepress/dist
 
 # 备份静态文件到github
-# git init
-# git config user.name 'xxx'
-# git config user.email 'xxxxxx@xxxx.com'
-# git add -A
-# git commit -m "deploy:$(date +"%Y年%m月%d日 %T %Z")"
-# git push -f git@github.com:xxx/xxx.git master:gh-pages
+git init
+git config user.name 'xxx'
+git config user.email 'xxxxxx@xxxx.com'
+git add -A
+git commit -m "deploy:$(date +"%Y年%m月%d日 %T %Z")"
+git push -f git@github.com:china-fanxin/website.git master:gh-pages
 
-# cd - # 退回开始所在目录
+cd - # 退回开始所在目录
 
 # 删除生成的静态网站
-# rm -rf docs/.vuepress/dist
+rm -rf docs/.vuepress/dist
