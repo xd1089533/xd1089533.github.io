@@ -28,16 +28,16 @@ postList: none
 ::: cardList
 
 ```yaml
-- name: 泡泡APP
-  desc: 美女一对一在线视频聊天
-  avatar: https://i.loli.net/2021/03/15/6srtu5dQDezHxiV.png # 可选
-  link: http://28m.me # 可选
+- name: Sky直播APP
+  desc: Sky直播app，🔞
+  avatar: https://i.loli.net/2021/03/15/qnZwYxP3RdecFCG.png # 可选
+  link: http://54ay.cc # 可选
   bgColor: '#CBEAFA' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Love直播APP
   desc: 'Love直播APP，🔞'
   avatar: https://i.loli.net/2021/03/15/Jcixh1Dbyd7ZalW.png
-  link: http://72ky.cc
+  link: http://27yf.cc
   bgColor: '#718971'
   textColor: '#fff'
 - name: 泡泡APP
