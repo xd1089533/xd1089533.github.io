@@ -1,0 +1,32 @@
+{
+  "name": "xxx",
+  "version": "1.0",
+  "description": "一个资源站",
+  "main": "index.js",
+  "repository": "xxx",
+  "author": "xxx",
+  "license": "无",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "editFm": "node utils/editFrontmatter.js",
+    "publish": "cd theme-vdoing && npm publish && cd ../ && npm run updateTheme"
+  },
+  "devDependencies": {
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "1.8.0",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-meting": "^0.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.8.1",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {}
+}
